@@ -46,3 +46,34 @@ incrementLap()
 incrementLap()
 
 console.log(lapsCompleted)
+
+// Create a function that logs out "Hi there, Linda!" when called
+let name = "Linda"
+let greeting = "Hi there"
+
+function greetLinda() {
+    console.log(greeting + " " + name + "!")
+}
+
+greetLinda()
+
+
+// Create two functions, add3Points() and remove1Point(), and have them
+// add/remove points to/from the myPoints variable
+let myPoints = 3
+
+function add3Points() {
+    myPoints += 3 
+}
+
+function remove1Point() {
+    myPoints -= 1
+}
+
+add3Points()
+add3Points()
+add3Points()
+remove1Point()
+remove1Point() 
+// Call the function to that line below logs out 10
+console.log(myPoints)
